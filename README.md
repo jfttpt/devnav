@@ -9,4 +9,4 @@ We build a webserver based django to set up a communication between server and w
 in wechat/views.py which extract network flow data of previous day, feed them to trained model, find hidden cameras and store 
 to database.
 
-You can input 'camera?' to get respond from webserver which check if there are hidden cameras by reading database
+You can input 'camera?' in wechat to get respond from webserver which check if there are hidden cameras by reading database
