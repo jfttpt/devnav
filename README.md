@@ -29,3 +29,5 @@ in wechat/views.py which extract network flow data of previous day, feed them to
 to database.
 
 You can input 'camera?' in wechat to get respond from webserver which check if there are hidden cameras by reading database
+
+
