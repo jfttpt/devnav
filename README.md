@@ -4,6 +4,7 @@ This project is use machine learning algorithm Random Forest to find hidden came
 You can run wechat/train.py to get a model and save to wechat/save/, the command line is:
 
 export PYTHONPATH=$PYTHONPATH:/home/ubuntu/django
+
 python -m devnav.wechat.train
 
 We build a webserver based django to set up a communication between server and wechat public account, we set up a timed job 
