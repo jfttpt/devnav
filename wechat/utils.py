@@ -174,11 +174,11 @@ def find_camera_from_dataset(dataset_items):
 
     X_test = pd.DataFrame(data_x_lists, columns=columns)
     y_test = pd.DataFrame(data_y_lists, columns=['label'])
-
-    ss = StandardScaler()
-    X_test_scaled = ss.fit_transform(X_test)
+    scaler_file = os.path.join(BASE_DIR, "wechat/save/std_scaler.bin")
+    ss = joblib.load(scaler_file)
+    X_test_scaled = ss.transform(X_test)
     y_test = np.array(y_test)
-    model_file = os.path.join(BASE_DIR, "wechat/save/rfc8.pkl")
+    model_file = os.path.join(BASE_DIR, "wechat/save/rfc11.pkl")
     rfc = joblib.load(model_file)
     y_hats = rfc.predict(X_test_scaled)
     print(y_hats)

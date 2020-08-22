@@ -12,6 +12,6 @@ device_name = 'Camera-1'
 device_ip = '192.168.128.22'
 device_mac = '74:ee:2a:3b:d4:c6'
 device_ssid = 'shanghai-cxc-cv'
-device_ap_name = 'IHG-Room-1001'
+device_ap_name = 'Room-1001'
 device = Device(ts=timestamp.date(),device_id=device_id,device_name=device_name,device_ip=device_ip,device_mac=device_mac,device_ssid=device_ssid,device_ap_name=device_ap_name)
 device.save()

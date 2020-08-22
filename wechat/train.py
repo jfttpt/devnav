@@ -36,4 +36,5 @@ print(scores)
 y_pred_test = rfc.predict(X_test_scaled)
 print(classification_report(y_test, y_pred_test))
 
-joblib.dump(rfc, 'devnav/wechat/save/rfc9.pkl')
+joblib.dump(rfc, 'devnav/wechat/save/rfc12.pkl')
+joblib.dump(ss, 'devnav/wechat/save/std_scaler12.bin')
