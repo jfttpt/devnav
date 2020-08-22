@@ -17,8 +17,6 @@ The score of using Random Forest is:
            1       1.00      0.92      0.96        25
 
     accuracy                           0.99       326
-   macro avg       1.00      0.96      0.98       326
-weighted avg       0.99      0.99      0.99       326
     
    macro avg       1.00      0.96      0.98       326
    
