@@ -3,6 +3,8 @@ This project is use machine learning algorithm Random Forest to find hidden came
 
 You can run wechat/train.py to get a model and save to wechat/save/, the command line is:
 
+source ~/django/myprojectenv/bin/activate
+
 export PYTHONPATH=$PYTHONPATH:/home/ubuntu/django
 
 cd ~/django
