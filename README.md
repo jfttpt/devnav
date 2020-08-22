@@ -5,6 +5,8 @@ You can run wechat/train.py to get a model and save to wechat/save/, the command
 
 export PYTHONPATH=$PYTHONPATH:/home/ubuntu/django
 
+cd ~/django
+
 python -m devnav.wechat.train
 
 We build a webserver based django to set up a communication between server and wechat public account, we set up a timed job 
